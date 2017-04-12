@@ -22,7 +22,7 @@ Creates a Raven Middleware.
 
 ```js
 import {applyMiddleware, createStore} from 'redux';
-import RavenMiddleware from 'redux-raven-middleware';
+import RavenMiddleware from 'redux-raven-persist-middleware';
 
 
 const createStoreWithMiddleware = applyMiddleware(
