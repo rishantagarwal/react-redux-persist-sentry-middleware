@@ -1,13 +1,12 @@
-# redux-raven-middleware
-
-> Also check out [Raven for Redux](https://github.com/captbaritone/raven-for-redux).
+# react-redux-persist-sentry-middleware
 
 Redux middleware for sending error reports to Sentry through raven-js.
 
 Will automatically send an error report upon encountering a Javascript error
 on dispatching any action. redux-raven-middleware will pass in the error as
 well as extra information such as the action that caused the error and the
-entire Redux application state.
+entire Redux application state.Also, it will add the localStorage data as a
+breadcrumb for debugging.
 
 ## RavenMiddleware(sentryDSN, sentryConfig, middlewareOptions)
 
